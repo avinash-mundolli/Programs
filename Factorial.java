@@ -22,6 +22,6 @@ public class Factorial{
                 System.out.println("invalid input");
             }
         }
-    
+        var.close();
     }
 }
