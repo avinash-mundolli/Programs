@@ -1,0 +1,5 @@
+ if(input==0){
+                System.out.println("Zero is nnot negative nor Positive");
+            }else if(input%2==0){
+                
+            }
