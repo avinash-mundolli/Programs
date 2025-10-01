@@ -28,7 +28,7 @@ public class PrimeNumber {
                     System.out.println(n+ " is not Prime Number");
                 }
             } catch (NumberFormatException e) {
-                System.out.println("invalid input");
+                System.out.println("invalid input\""+input+"\"try again");
             }
         }
         var.close();

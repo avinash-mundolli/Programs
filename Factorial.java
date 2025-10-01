@@ -19,7 +19,7 @@ public class Factorial{
             System.out.println(fact);
                 
             } catch (NumberFormatException e ) {
-                System.out.println("invalid input");
+                System.out.println("invalid input\""+input+"\"try again");
             }
         }
         var.close();

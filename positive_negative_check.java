@@ -15,7 +15,7 @@ public class positive_negative_check{
                 System.out.println(n+(n==0?"not positive nither a negative":n>0?"is positive":"is negative"));
 
             } catch (NumberFormatException e) {
-                System.out.println("Invalid Input Try Again");
+                System.out.println("Invalid Input\""+input+"\"Try Again");
             }
         }
         var.close();

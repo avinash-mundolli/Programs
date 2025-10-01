@@ -12,7 +12,7 @@ public class EvenorOdd {
                 int n=Integer.parseInt(input);
                 System.out.println(n+(n%2==0?" is even number":" odd number"));
             } catch (NumberFormatException e) {
-                System.out.println(" invalid input try again");
+                System.out.println(" invalid input\""+input+"\" try again");
             }
         }
         var.close();
