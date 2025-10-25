@@ -51,4 +51,3 @@ public class PrimeNumberGivenRange {
         var.close();
     }
 }
-git 
