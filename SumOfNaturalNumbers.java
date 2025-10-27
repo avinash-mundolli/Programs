@@ -14,11 +14,19 @@ public class SumOfNaturalNumbers {
             }
             try {
                 int num=Integer.parseInt(input);
-                int n=0;
+                if (num<0) {
+                    System.out.println("Error: Natural numbers start from 1. Please enter a non-negative number.");
+                    continue;
+                }
+                if (num==0) {
+                    System.out.println("Result: 0 (Sum of first 0 natural numbers)");
+                    continue;
+                }
+                long sum=0;
             for(int i=1;i<=num;i++){
-                n=n+i;
+                sum+=i;
             }
-                System.out.println("Result: "+n);
+                System.out.println("Result: "+sum);
             } catch (NumberFormatException e) {
                 System.out.println("Invalid Input \""+input+"\" Try Again");
             }

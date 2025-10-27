@@ -31,6 +31,6 @@ public class PrimeNumber {
                 System.out.println("invalid input\""+input+"\"try again");
             }
         }
-        var.close();
+        var.close(); 
     }
 }
