@@ -11,8 +11,12 @@ public class Factorial{
                 break;
             }
             try {
-                BigInteger fact=BigInteger.ONE;
                 int n=Integer.parseInt(input);
+                if(n<0){
+                    System.out.println("factorial does not exit for\""+n+"\" number");
+                    continue;
+                }
+                BigInteger fact=BigInteger.ONE;
             for(int i=1;i<=n;i++){
                 fact=fact.multiply(BigInteger.valueOf(i));
             }

@@ -21,16 +21,14 @@ public class PrimeNumber {
                         isPrime=false;
                         break;
                     }
+                    
                 }
-                if(isPrime){
-                    System.out.println(n+ " is Prime Number");
-                }else{
-                    System.out.println(n+ " is not Prime Number");
-                }
+                System.out.println(n +(isPrime ? " is prime number":" is not prime number"));
+                
             } catch (NumberFormatException e) {
                 System.out.println("invalid input\""+input+"\"try again");
             }
-        }
+        }   
         var.close(); 
     }
 }
